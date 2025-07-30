@@ -1,6 +1,6 @@
 # 📄 Plagiarism Detection System
 
-This project is a web-based tool designed to detect textual plagiarism across multiple PDF documents (not limited to resumes). It uses machine learning and NLP techniques to analyze text similarity and flag pairs of files that are significantly similar.
+This project is a web-based tool designed to detect textual plagiarism across multiple documents. It uses machine learning and NLP techniques to analyze text similarity and flag pairs of files that are significantly similar.
 
 ## 🔍 Features
 
@@ -18,17 +18,6 @@ This project is a web-based tool designed to detect textual plagiarism across mu
 - **PyPDF2** – PDF text extraction
 - **scikit-learn** – TF-IDF vectorization & cosine similarity
 - **HTML / Jinja2** – Frontend templates
-
-## 📂 Folder Structure
-project-root/
-│
-├── flask1.py # Flask-based web app
-├── plagarismdetector.py # Command-line utility for batch checking
-├── templates/
-│ ├── page1.html # Homepage
-│ ├── upload.html # Upload form
-│ └── results.html # Result display page
-└── static/ # (Optional) Static CSS/JS files
 
 
 ## 🚀 How It Works
@@ -50,7 +39,7 @@ pip install flask PyPDF2 scikit-learn
 python flask1.py
 
 ## Example output
-Similarity score between fileA.pdf and fileB.pdf: 0.76
-Common words: ['algorithm', 'system', 'performance', 'data']
+- Similarity score between fileA.pdf and fileB.pdf: 0.76
+- Common words: ['algorithm', 'system', 'performance', 'data']
 
 
